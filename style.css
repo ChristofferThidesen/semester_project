@@ -1,0 +1,272 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #d2cfdc;
+}
+
+.footer {
+  background-color: #000000;
+  text-align: center;
+}
+
+.footer-text {
+  color: white;
+}
+
+nav {
+  background-color: rgb(0, 174, 239);
+  padding: 10px 0;
+}
+
+.logo {
+  width: 150px;
+}
+
+.curser {
+  cursor: pointer;
+}
+
+.text-wrapper h3 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 8vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.barn1 {
+  background-image: url("./img/barn1.jpg");
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: right;
+  margin: -20px auto -20px;
+}
+
+.unicef-text {
+  text-align: center;
+  margin: 3px;
+}
+
+.text-wrapper {
+  width: 100%;
+  position: relative;
+  margin-top: -50%;
+}
+
+/* img*/
+img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+/* knapp*/
+.button {
+  background-color: #77871c;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-right: 99px;
+  border-radius: 12px;
+}
+
+.button1 {
+  background-color: #0074c8;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+/* section*/
+section {
+  background-color: white;
+  padding: 2em;
+}
+
+main {
+  margin: 100px 0 0 0;
+}
+
+h2 {
+  margin: 0 0 25px;
+  text-align: center;
+}
+
+.FB{
+  height: 45px;
+ 
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    padding: 0;
+  }
+
+  .produckt-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+
+  .produckt-card1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+  }
+
+  .barn1 {
+    background-image: url("./img/barn.2.jpg");
+    height: 300px;
+    width: 686px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 22px;
+    text-align: right;
+    margin: 20px auto 240px;
+  }
+
+  p {
+    width: 300px;
+  }
+
+  .text-b {
+    margin: 20px auto 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    width: 100%;
+  }
+
+  .section1 {
+    padding: 10px 121px 10px 50px ;
+  }
+
+  .section2 {
+    padding: 10px 50px 10px 121px;
+  }
+
+  .section3 {
+    padding: 20px 70px 20px 70px;
+  }
+
+  .section4 {
+    padding: 20px 70px 20px 70px;
+  }
+
+
+  .produckt-card {
+    display: flex;
+    margin-bottom: 2em;
+    justify-content: center;
+    
+  }
+
+  .produckt-card1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 944px;
+    margin: 0 auto 20px;
+  }
+
+  .barn1 {
+    background-image: url("./img/barn.2.jpg");
+    height: 300px;
+    width: 900px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 22px;
+    text-align: right;
+    margin: 20px auto 20px;
+  }
+
+  h3 {
+    margin: 350px 0 25px;
+  }
+
+  .text-b {
+    margin: 20px auto 305x;
+  }
+}
+
+@media screen and (min-width: 1070px) {
+  main {
+    width: 1024px;
+    margin: 100px auto;
+  }
+
+  .produckt-card {
+    display: flex;
+    margin-top: -30px;
+    margin-bottom: 2em;
+    justify-content: center;
+}
+h3 {
+  margin: 555px 0 25px;
+}
+
+  .produckt-card1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 944px;
+    margin: 0 auto -60px;
+  }
+
+  .barn1 {
+    background-image: url("./img/barn.2.jpg");
+    height: 300px;
+    width: 900px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 22px;
+    text-align: right;
+    margin: 20px auto 20px;
+  }
+
+  .text-wrapper h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 7vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+@media screen and (min-width:2560px){
+  
+  .produckt-card{
+    margin: 390px auto 50px;
+  }
+
+  
+  .text-wrapper h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+h3{
+  margin: 1130px auto -280px ;
+}
+
+}
