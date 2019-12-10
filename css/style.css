@@ -34,7 +34,7 @@ nav {
 }
 
 .barn1 {
-  background-image: url("./img/barn1.jpg");
+  background-image: url("../img/barn1.jpg");
   height: 400px;
   width: 100%;
   background-position: center;
@@ -129,7 +129,7 @@ h2 {
   }
 
   .barn1 {
-    background-image: url("./img/barn.2.jpg");
+    background-image: url("../img/barn.2.jpg");
     height: 300px;
     width: 686px;
     background-size: cover;
@@ -187,7 +187,7 @@ h2 {
   }
 
   .barn1 {
-    background-image: url("./img/barn.2.jpg");
+    background-image: url("../img/barn.2.jpg");
     height: 300px;
     width: 900px;
     background-size: cover;
@@ -235,7 +235,7 @@ h3 {
   gg
 
   .barn1 {
-    background-image: url("./img/barn.2.jpg");
+    background-image: url("../img/barn.2.jpg");
     height: 300px;
     width: 900px;
     background-size: cover;
