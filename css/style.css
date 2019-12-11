@@ -105,9 +105,8 @@ h2 {
   text-align: center;
 }
 
-.FB{
+.FB {
   height: 45px;
- 
 }
 
 @media screen and (min-width: 768px) {
@@ -155,7 +154,7 @@ h2 {
   }
 
   .section1 {
-    padding: 10px 121px 10px 50px ;
+    padding: 10px 121px 10px 50px;
   }
 
   .section2 {
@@ -170,12 +169,10 @@ h2 {
     padding: 20px 70px 20px 70px;
   }
 
-
   .produckt-card {
     display: flex;
     margin-bottom: 2em;
     justify-content: center;
-    
   }
 
   .produckt-card1 {
@@ -218,10 +215,10 @@ h2 {
     margin-top: -30px;
     margin-bottom: 2em;
     justify-content: center;
-}
-h3 {
-  margin: 555px 0 25px;
-}
+  }
+  h3 {
+    margin: 555px 0 25px;
+  }
 
   .produckt-card1 {
     display: flex;
@@ -231,10 +228,7 @@ h3 {
     margin: 0 auto -60px;
   }
 
-
-  gg
-
-  .barn1 {
+  gg .barn1 {
     background-image: url("../img/barn.2.jpg");
     height: 300px;
     width: 900px;
@@ -254,13 +248,11 @@ h3 {
   }
 }
 
-@media screen and (min-width:2560px){
-  
-  .produckt-card{
+@media screen and (min-width: 2560px) {
+  .produckt-card {
     margin: 390px auto 50px;
   }
 
-  
   .text-wrapper h3 {
     text-align: center;
     color: #ffffff;
@@ -268,8 +260,7 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-h3{
-  margin: 1130px auto -280px ;
-}
-
+  h3 {
+    margin: 1130px auto -280px;
+  }
 }
